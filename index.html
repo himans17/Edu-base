@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice Layouts</title>
+    <!-- bootstrap css and custom css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--fonts awesome  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white navbar-light navigation fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" id="ChangeToggle" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <div id="navbar-hamburger">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div id="navbar-close" class="hidden">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav justify-content-center m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <button class="button-57" role="button"><span class="text">Join Now</span><span>Click
+                                Me</span></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar -->
+
+    <!-- banner slider -->
+    <div class="owl-carousel owl-theme" id="banner-slider">
+        <div class="item">
+            <div class="banner-slider-img-1">
+                <img src="assets/img/carousel-1.jpg" class="h-100">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary fs-4 text-uppercase mb-3">Best Online Courses
+                                </h5>
+                                <h1 class="display-3 text-white">The Best Online Learning Platform
+                                </h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
+                                    stet sit diam no.
+                                    Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+                                <div>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 fw-bolder">Read
+                                        More
+                                    </a>
+                                    <a href="" class="btn btn-light py-md-3 px-md-5 join-now fw-bolder">Join Now</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="banner-slider-img-2">
+                <img src="assets/img/carousel-2.jpg" class="h-100">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary fs-4 text-uppercase mb-3">Best Online Courses
+                                </h5>
+                                <h1 class="display-3 text-white">The Best Online Learning Platform
+                                </h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
+                                    stet sit diam no.
+                                    Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 fw-bolder">Read
+                                    More</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 join-now fw-bolder">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner slider -->
+
+
+    <!-- Card Section -->
+    <section id="card-section" class="py-5">
+        <div class="container-fluid position-relative">
+            <div class="row g-4 justify-content-evenly  pt-5 pb-5 p-sm-3 cards-row">
+                <div class="col-lg-3 col-md-3 col-sm-12 cards mt-sm-3">
+                    <div class="card-icon text-center">
+                        <i class="fa-solid fa-user-graduate fs-1 pt-2"></i>
+                    </div>
+                    <div class="card-text text-center cards-content">
+                        <h12 class="fw-bolder">
+                            Skilled instructors
+                        </h12>
+                        <p class="fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, similique.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-12 cards mt-sm-3">
+                    <div class="card-icon text-center">
+                        <i class="fa-solid fa-earth-americas fs-1 pt-2"></i>
+                    </div>
+                    <div class="card-text text-center">
+                        <h6 class="fw-bolder">
+                            Skilled instructors
+                        </h6>
+                        <p class="fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, similique.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 cards mt-sm-3">
+                    <div class="card-icon text-center">
+                        <i class="fa-solid fa-book-atlas fs-1 pt-2"></i>
+                    </div>
+                    <div class="card-text text-center">
+                        <h6 class="fw-bolder">
+                            Skilled instructors
+                        </h6>
+                        <p class="fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, similique.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 position-absolute w-100" style="bottom: -100px; left: 0;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#fff" fill-opacity="1"
+                        d="M0,32L48,37.3C96,43,192,53,288,90.7C384,128,480,192,576,197.3C672,203,768,149,864,117.3C960,85,1056,75,1152,85.3C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Card Section -->
+
+    <!-- About Section -->
+    <div class="container-fluid position-relative about">
+        <div class="row g-4 pb-3 mt-2 about mx-auto justify-content-center">
+            <div class="col-lg-5 col-md-5" style="max-height: 400px;">
+                <img class="about-img h-100 w-100" src="assets/img/about.jpg">
+            </div>
+            <div class="col-lg-5 col-md-5" style="max-height: 400px;">
+                <h5 class="fw-bolder text-info">About</h5>
+                <h3 class="text-dark">Welcome To Learning</h3>
+                <p class="fw-bold text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veniam non
+                    blanditiis eius sed quasi
+                    ipsa facilis dolorem modi quidem omnis, nobis nostrum provident facere optio aliquam. Cupiditate,
+                    sit corrupti!
+                </p>
+                <p class="fw-bold text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quos
+                    molestiae magni animi iusto,
+                    labore aliquam ducimus, adipisci, sint beatae sunt voluptas.
+                </p>
+                <a href="" class="btn btn-outline-dark py-md-0 py-lg-3 px-md-5 join-now fw-bolder">Join Now</a>
+            </div>
+            <div class="position-absolute" style="left: -85px;">
+                <img src="assets/img/bubbles-30830.png" style="width: 250px;">
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+
+    <!-- Courses Section -->
+    <div class="container-fluid courses-section pt-5 pb-5 position-relative">
+        <div class="row g-4 mt-2 mx-auto justify-content-center courses-content">
+            <h2 class="mt-1" style="z-index: 1;">Our Top Courses</h2>
+            <div class="col-lg-6 col-md-6" style="z-index: 1;">
+                <div class="row g-3 ">
+                    <div class="col-lg-12 col-md-12 img overflow-hidden position-relative">
+                        <img src="assets/img/cat-1.jpg" class="w-100">
+                        <div>
+                            <p class="text position-absolute bg-white p-2" style="bottom: 10px; right: 2%;">25+ Courses
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5 overflow-hidden img position-relative">
+                        <img src="assets/img/cat-2.jpg" class="w-100">
+                        <div>
+                            <p class="text position-absolute bg-white p-2" style="bottom: 10px; right: 2%;">25+ Courses
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5 overflow-hidden img position-relative">
+                        <img src="assets/img/cat-3.jpg" class="w-100">
+                        <div>
+                            <p class="text position-absolute bg-white p-2" style="bottom: 10px; right: 2%;">25+ Courses
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 overflow-hidden img position-relative" style="z-index: 1;">
+                <img src="assets/img/cat-4.jpg" class="w-100 h-100">
+                <div>
+                    <p class="text position-absolute bg-white p-2" style="bottom: 10px; right: 2%;">25+ Courses</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 position-absolute w-100" style="bottom: 0px; left: 0; top: 0;">
+            <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                        <stop stop-color="rgba(243, 106, 62, 1)" offset="0%"></stop>
+                        <stop stop-color="rgba(255, 179, 11, 1)" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                    d="M0,98L26.7,81.7C53.3,65,107,33,160,81.7C213.3,131,267,261,320,269.5C373.3,278,427,163,480,147C533.3,131,587,212,640,204.2C693.3,196,747,98,800,73.5C853.3,49,907,98,960,163.3C1013.3,229,1067,310,1120,326.7C1173.3,343,1227,294,1280,277.7C1333.3,261,1387,278,1440,310.3C1493.3,343,1547,392,1600,416.5C1653.3,441,1707,441,1760,375.7C1813.3,310,1867,180,1920,114.3C1973.3,49,2027,49,2080,89.8C2133.3,131,2187,212,2240,245C2293.3,278,2347,261,2400,269.5C2453.3,278,2507,310,2560,334.8C2613.3,359,2667,376,2720,343C2773.3,310,2827,229,2880,171.5C2933.3,114,2987,82,3040,98C3093.3,114,3147,180,3200,245C3253.3,310,3307,376,3360,375.7C3413.3,376,3467,310,3520,285.8C3573.3,261,3627,278,3680,277.7C3733.3,278,3787,261,3813,253.2L3840,245L3840,490L3813.3,490C3786.7,490,3733,490,3680,490C3626.7,490,3573,490,3520,490C3466.7,490,3413,490,3360,490C3306.7,490,3253,490,3200,490C3146.7,490,3093,490,3040,490C2986.7,490,2933,490,2880,490C2826.7,490,2773,490,2720,490C2666.7,490,2613,490,2560,490C2506.7,490,2453,490,2400,490C2346.7,490,2293,490,2240,490C2186.7,490,2133,490,2080,490C2026.7,490,1973,490,1920,490C1866.7,490,1813,490,1760,490C1706.7,490,1653,490,1600,490C1546.7,490,1493,490,1440,490C1386.7,490,1333,490,1280,490C1226.7,490,1173,490,1120,490C1066.7,490,1013,490,960,490C906.7,490,853,490,800,490C746.7,490,693,490,640,490C586.7,490,533,490,480,490C426.7,490,373,490,320,490C266.7,490,213,490,160,490C106.7,490,53,490,27,490L0,490Z">
+                </path>
+            </svg>
+        </div>
+    </div>
+    <!-- Courses Section -->
+
+    <!-- Pricing Plans Section -->
+    <div class="container-fluid pricing pt-5 pb-5 pricing-section">
+        <div class="row g-4 mb-2 mx-auto d-flex justify-content-center">
+            <h2 class="mt-5 text-center">Our Pricing</h2>
+            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum neque ab, ipsa eos
+                nisi sit laboriosam
+                doloribus voluptate molestias distinctio quas, dolorem, sunt ratione sed Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Sed, unde.?</p>
+            <div class="col-md-3 col-sm-12 col-12">
+                <div class="plans p-4">
+                    <div class="plans-details text-center">
+                        <span class="mu-currency">$</span>
+                        <span class="mu-rate">12</span>
+                        <span class="mu-time"><i>/all days</i></span>
+                    </div>
+                    <h3 class="text-center">Basic</h3>
+                    <ul class="text-center">
+                        <li>Basic Class Ticket</li>
+                        <li>Access to all sessions</li>
+                        <li>Free Breakfast</li>
+                    </ul>
+                    <a class="button-74" role="button">Register Now</a>
+                </div>
+            </div>
+            <div class="col-md-3  col-sm-12 col-12">
+                <div class="plans p-4 position-relative overflow-hidden">
+                    <div class="popular position-absolute">
+                        <p>Popular</p>
+                    </div>
+                    <div class="plans-details text-center">
+                        <span class="mu-currency">$</span>
+                        <span class="mu-rate">22</span>
+                        <span class="mu-time"><i>/all days</i></span>
+                    </div>
+                    <h3 class="text-center">Basic</h3>
+                    <ul class="text-center">
+                        <li>Basic Class Ticket</li>
+                        <li>Access to all sessions</li>
+                        <li>Free Breakfast</li>
+                    </ul>
+                    <a class="button-74" role="button">Register Now</a>
+                </div>
+            </div>
+            <div class="col-md-3  col-sm-12 col-12">
+                <div class="plans p-4">
+                    <div class="plans-details text-center">
+                        <span class="mu-currency">$</span>
+                        <span class="mu-rate">42</span>
+                        <span class="mu-time"><i>/all days</i></span>
+                    </div>
+                    <h3 class="text-center">Basic</h3>
+                    <ul class="text-center">
+                        <li>Basic Class Ticket</li>
+                        <li>Access to all sessions</li>
+                        <li>Free Breakfast</li>
+                    </ul>
+                    <a class="button-74" role="button">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing Plans Section -->
+
+    <!-- What We Do Section -->
+    <div class="container-fluid pt-5 pb-5 what-we-do position-relative">
+        <div class="row g-4 mb-2 mx-auto d-flex justify-content-center">
+            <h2 style="z-index: 1;" class="mt-5 text-center">What We Do</h2>
+            <div style="z-index: 1;" class="col-lg-8">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes
+                                control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                                this with
+                                custom CSS or overriding our default variables. It's also worth noting that just about
+                                any HTML can go
+                                within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes
+                                control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                                this with
+                                custom CSS or overriding our default variables. It's also worth noting that just about
+                                any HTML can go
+                                within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes
+                                control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                                this with
+                                custom CSS or overriding our default variables. It's also worth noting that just about
+                                any HTML can go
+                                within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 position-absolute w-100" style="bottom: 0px; left: 0; top: 0;">
+            <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                        <stop stop-color="rgba(243, 106, 62, 1)" offset="0%"></stop>
+                        <stop stop-color="rgba(255, 179, 11, 1)" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                    d="M0,98L26.7,81.7C53.3,65,107,33,160,81.7C213.3,131,267,261,320,269.5C373.3,278,427,163,480,147C533.3,131,587,212,640,204.2C693.3,196,747,98,800,73.5C853.3,49,907,98,960,163.3C1013.3,229,1067,310,1120,326.7C1173.3,343,1227,294,1280,277.7C1333.3,261,1387,278,1440,310.3C1493.3,343,1547,392,1600,416.5C1653.3,441,1707,441,1760,375.7C1813.3,310,1867,180,1920,114.3C1973.3,49,2027,49,2080,89.8C2133.3,131,2187,212,2240,245C2293.3,278,2347,261,2400,269.5C2453.3,278,2507,310,2560,334.8C2613.3,359,2667,376,2720,343C2773.3,310,2827,229,2880,171.5C2933.3,114,2987,82,3040,98C3093.3,114,3147,180,3200,245C3253.3,310,3307,376,3360,375.7C3413.3,376,3467,310,3520,285.8C3573.3,261,3627,278,3680,277.7C3733.3,278,3787,261,3813,253.2L3840,245L3840,490L3813.3,490C3786.7,490,3733,490,3680,490C3626.7,490,3573,490,3520,490C3466.7,490,3413,490,3360,490C3306.7,490,3253,490,3200,490C3146.7,490,3093,490,3040,490C2986.7,490,2933,490,2880,490C2826.7,490,2773,490,2720,490C2666.7,490,2613,490,2560,490C2506.7,490,2453,490,2400,490C2346.7,490,2293,490,2240,490C2186.7,490,2133,490,2080,490C2026.7,490,1973,490,1920,490C1866.7,490,1813,490,1760,490C1706.7,490,1653,490,1600,490C1546.7,490,1493,490,1440,490C1386.7,490,1333,490,1280,490C1226.7,490,1173,490,1120,490C1066.7,490,1013,490,960,490C906.7,490,853,490,800,490C746.7,490,693,490,640,490C586.7,490,533,490,480,490C426.7,490,373,490,320,490C266.7,490,213,490,160,490C106.7,490,53,490,27,490L0,490Z">
+                </path>
+            </svg>
+        </div>
+    </div>
+    <!-- What We Do Section -->
+
+    <!-- Slider Section -->
+    <div class="container-fluid pt-5 pb-5 position-relative">
+        <div class="row  g-4 mb-2 mx-auto d-flex justify-content-center">
+            <h2 style="z-index: 1;" class="mt-5 text-center">Our Patners</h2>
+            <div class="col-lg-10">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/img/Rectangle 36.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/Rectangle 38.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/Rectangle 41.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/Rectangle 43.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/Rectangle 44.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/Rectangle 45.png">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Slider Section -->
+
+
+    <!-- Footer Section -->
+    <footer class="footer pt-5 pb-5">
+        <div class="container">
+            <div class="row"> 
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section -->
+
+
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- owl carousel js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- custon js -->
+    <script src="assets/custom.js"></script>
+</body>
+
+</html>

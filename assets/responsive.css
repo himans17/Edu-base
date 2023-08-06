@@ -1,0 +1,99 @@
+/* Side Navbar */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 50%;
+        text-align: center;
+        height: 100%;
+        background-color: #fff !important;
+        z-index: 11;
+        color: white;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed~.navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+
+    #banner-slider .banner-slider-img-1, .banner-slider-img-2 {
+        height: 500px;
+    }
+
+    .navbar .collapse ul li a::before {
+        transition: 300ms;
+        height: 2px;
+        content: "";
+        position: absolute;
+        background-color: #63d589;
+        width: 0%;
+        bottom: 0px;
+        left: 43%;
+        display: none;
+    }
+
+    .navbar .collapse ul li a:hover:before {
+        width: 25%;
+    }
+}
+
+/* cards */
+
+@media (max-width: 560px) {
+    .cards-row {
+        padding: 20px;
+    }
+
+    .cards-row .cards {
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 820px) {
+
+    .pricing .plans a {
+        font-size: 13px;
+        text-decoration: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .button-74 {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+
+
+    .pricing .plans a {
+        font-size: 10px;
+        text-decoration: none;
+    }
+}
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
