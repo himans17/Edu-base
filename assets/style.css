@@ -33,9 +33,10 @@ body {
     font-size: 16px;
 }
 
-.navbar-brand {
-font-size: 20px;
+.navigation .navbar-brand {
+    font-size: 25px;
 }
+
 .navbar .collapse ul li a {
     position: relative;
 }
