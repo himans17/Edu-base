@@ -60,6 +60,12 @@
     .cards-row .cards {
         margin-top: 10px;
     }
+
+    .card-back-image {
+        bottom: -60px;
+        left: 0;
+    }
+
 }
 
 

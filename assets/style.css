@@ -200,6 +200,10 @@ body {
     z-index: 11;
 }
 
+.card-back-image {
+    bottom: -100px;
+    left: 0;
+}
 
 .cards:hover {
     background-color: rgb(100, 207, 5);
